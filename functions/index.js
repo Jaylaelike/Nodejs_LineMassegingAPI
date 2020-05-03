@@ -14,7 +14,7 @@ exports.LineBotPush = functions.https.onRequest((req, res) => {
     json: true,
   })
     .then((response) => {
-      const message = `ติดเชื้อสะสม: ${response.Confirmed}`;
+      const message = `ติดเชื้อสะสม: ${response.Confirmed}\nติดเชื้อเพิ่ม: ${response.NewConfirmed}\nตาย: ${response.Deaths}\nอยู่ในโรงพยาบาล: ${response.Hospitalized}\nหายแล้ว: ${response.NewRecovered}`;
       return push(res, message);
     })
     .catch((error) => {
