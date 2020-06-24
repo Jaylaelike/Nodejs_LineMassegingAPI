@@ -344,7 +344,7 @@ exports.dbMonitor = functions
         contents: [
           {
             type: "text",
-            text: `${newValue.type} ${newValue.order}`,
+            text: `${newValue.type} ${newValue.coffee}`,
 
             size: "md",
             weight: "regular",
