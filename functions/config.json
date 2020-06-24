@@ -1,0 +1,9 @@
+{
+  "lineMessagingApi": "https://api.line.me/v2/bot/message",
+  "lineHeaders": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer WXE8PmAZXaZaHujyukO7vQWCxzgdiVqLP3dzKsQEU0VZL2wbLtW7fMxCLSVBnhLg++1u+Ps23EJbIgOdoUt1pgNqDD4VPqFcTwo5XDkRtPOzc/NSzLQ9213ul9Nnt/TWPeFL3gwbTVne6rLcxLWJIQdB04t89/1O/w1cDnyilFU="
+  },
+  "databaseURL": "https://linebot-messageing-api/firebaseio.com",
+  "notifyToken": "3ssDYGarN6G0Ta30xA37MwNZdQU4dNLOHqneYtJzFPl"
+}
